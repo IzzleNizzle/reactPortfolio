@@ -7,8 +7,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Navbar brand='Izzlenizzle' right>
+        <Navbar brand='IzzleNizzle' right>
           <NavItem onClick={() => console.log('test click')}>Isaac P.</NavItem>
+          <NavItem onClick={() => console.log('test click')}>I plan on putting a few icons here </NavItem>
         </Navbar>
 
 
@@ -16,20 +17,20 @@ class App extends Component {
         <div className="section white">
           <div className="row container">
             <img src="/assets/AmberandI.JPG" id="profile" alt="Me"/>
-              <h2 className="header">Parallax</h2>
-              <p className="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+              <h3 className="header">Hi! I'm Isaac</h3>
+              <p className="grey-text text-darken-3 lighten-3">I'm a Web Developer. I currently work with the MERN Stack.</p>
           </div>
           </div>
           <Parallax imageSrc="./assets/ipadchessmatch.jpg" />
           <div className="section white">
             <div className="row container">
-              <h2 className="header">Parallax</h2>
-              <p className="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+              <h2 className="header">Projects</h2>
+              <p className="grey-text text-darken-3 lighten-3">Here I will put a few examples of my abilities.</p>
             </div>
           </div>
 
 
-          <Footer copyrights="&copy 2015 Copyright Text"
+          <Footer copyrights="&copy; IzzleNizzle 2018"
             moreLinks={
               <a className="grey-text text-lighten-4 right" href="#!">More Links</a>
             }
