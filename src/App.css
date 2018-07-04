@@ -29,6 +29,31 @@
   margin-left: 19px;
 }
 
+.logo {
+  margin-top: 15px;
+  height: 36px;
+  color: black;
+}
+
+.project {
+  height: 270px;
+  margin: 15px;
+  float: left;
+}
+
+.project-right {
+  float: right;
+}
+
+.project-div {
+  height: 300px;
+}
+
+.project-text {
+  top: 25%;
+  position: relative;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
